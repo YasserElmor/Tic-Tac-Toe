@@ -1,0 +1,91 @@
+
+*, *::before, *::after{
+ margin: 0;
+ padding: 0;
+}
+
+body{
+  /* text-align: center; */
+}
+
+.col{
+  border: 2px solid;
+  padding: 0;
+}
+
+.row{
+  width: 30rem;
+  height: 10rem;
+  text-align: center;
+  margin: auto;
+}
+
+.container{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 8% auto;
+  text-align: center;
+}
+
+.left-border{
+  border-left: 0;
+}
+
+.right-border{
+  border-right: 0;
+}
+
+.add-x-image{
+  background-image: url('images/x.png');
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.add-o-image{
+  background-image: url('images/o.png');
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.x-image{
+  background-image: url('images/x.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.o-image{
+  background-image: url('images/o.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.winner{
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+.winner h1{
+  color: #fff;
+  font-size: 6rem;
+  text-align: center;
+
+}
+
+.winner button{
+  right: 44.3rem;
+  bottom: 20rem;
+  font-size: 30px;
+}
+.style{
+  background-color: rgba(0, 0, 0, 0.8);
+}
